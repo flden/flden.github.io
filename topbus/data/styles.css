@@ -1,0 +1,462 @@
+﻿.ax_default {
+  font-family:'Museo Sans Cyrl 300';
+  font-weight:304;
+  font-style:normal;
+  font-size:14px;
+  color:#FFFFFF;
+  text-align:center;
+  line-height:normal;
+}
+.box_1 {
+  font-family:'Museo Sans Cyrl 300';
+  font-weight:304;
+  font-style:normal;
+}
+.ellipse {
+}
+.shape {
+  font-family:'Museo Sans Cyrl 300';
+  font-weight:304;
+  font-style:normal;
+  font-size:13px;
+  color:#212121;
+  text-align:center;
+  line-height:normal;
+}
+.image {
+  font-family:'Museo Sans Cyrl 300';
+  font-weight:304;
+  font-style:normal;
+}
+.placeholder {
+}
+.primary_button {
+  font-family:'Museo Sans Cyrl 300';
+  font-weight:304;
+  font-style:normal;
+  color:#FFFFFF;
+}
+.icon {
+  font-family:'Museo Sans Cyrl 300';
+  font-weight:304;
+  font-style:normal;
+}
+.label {
+  font-family:'Museo Sans Cyrl 100';
+  font-weight:250;
+  font-style:normal;
+  color:#009900;
+  text-align:left;
+}
+.flow_shape {
+  font-family:'Museo Sans Cyrl 300';
+  font-weight:304;
+  font-style:normal;
+}
+.text_field {
+  font-family:'Museo Sans Cyrl 300';
+  font-weight:304;
+  font-style:normal;
+  color:#000000;
+  text-align:left;
+}
+.checkbox {
+  font-family:'Museo Sans Cyrl 300';
+  font-weight:304;
+  font-style:normal;
+  text-align:left;
+}
+.tree-node {
+  font-family:'Museo Sans Cyrl 300';
+  font-weight:304;
+  font-style:normal;
+  font-size:16px;
+  text-align:left;
+}
+.table_cell {
+  font-family:'Museo Sans Cyrl 300';
+  font-weight:304;
+  font-style:normal;
+}
+.connector {
+  font-family:'Museo Sans Cyrl 300';
+  font-weight:304;
+  font-style:normal;
+}
+.menu_item {
+  font-family:'Museo Sans Cyrl 300';
+  font-weight:304;
+  font-style:normal;
+}
+.snapshot {
+  font-family:'Museo Sans Cyrl 300';
+  font-weight:304;
+  font-style:normal;
+}
+._----------------------- {
+  font-family:'Museo Sans Cyrl 300';
+  font-weight:304;
+  font-style:normal;
+}
+.h1 {
+  font-family:'Museo Sans Cyrl 300';
+  font-weight:304;
+  font-style:normal;
+  font-size:48px;
+  color:#212121;
+  text-align:left;
+  line-height:36px;
+}
+.h2 {
+  font-family:'Museo Sans Cyrl 300';
+  font-weight:bold;
+  font-style:normal;
+  font-size:28px;
+  color:#212121;
+  text-align:left;
+}
+.h3 {
+  font-family:'Museo Sans Cyrl 500';
+  font-weight:normal;
+  font-style:normal;
+  font-size:21px;
+  color:#212121;
+  text-align:left;
+}
+._------------------------ {
+  font-family:'Museo Sans Cyrl 300';
+  font-weight:304;
+  font-style:normal;
+}
+.home-search-input {
+  font-family:'Museo Sans Cyrl 300';
+  font-weight:304;
+  font-style:normal;
+}
+.input {
+  font-family:'Museo Sans Cyrl 300';
+  font-weight:304;
+  font-style:normal;
+  font-size:21px;
+}
+.label1 {
+  font-family:'Museo Sans Cyrl 700';
+  font-weight:604;
+  font-style:normal;
+  font-size:14px;
+  color:#212121;
+  text-align:left;
+}
+.label-big {
+  font-family:'Museo Sans Cyrl 700';
+  font-weight:604;
+  font-style:normal;
+  font-size:18px;
+  color:#212121;
+  text-align:left;
+  line-height:18px;
+}
+.p {
+  font-family:'Museo Sans Cyrl 300';
+  font-weight:304;
+  font-style:normal;
+  font-size:16px;
+  color:#212121;
+  text-align:left;
+  line-height:21px;
+}
+.p-small {
+  font-family:'Museo Sans Cyrl 300';
+  font-weight:304;
+  font-style:normal;
+  font-size:14px;
+  color:#212121;
+  text-align:left;
+  line-height:21px;
+}
+.line {
+  font-family:'Museo Sans Cyrl 300';
+  font-weight:304;
+  font-style:normal;
+}
+.link {
+  font-family:'Museo Sans Cyrl 300';
+  font-weight:304;
+  font-style:normal;
+  font-size:16px;
+  color:#1F97EB;
+  text-align:center;
+  line-height:18px;
+}
+.link_extra {
+  font-family:'Museo Sans Cyrl 300';
+  font-weight:304;
+  font-style:normal;
+  font-size:14px;
+  color:#A1A1A1;
+  text-align:left;
+}
+.link_extra_none {
+  font-family:'Museo Sans Cyrl 300';
+  font-weight:300;
+  font-style:normal;
+  font-size:14px;
+  color:#A1A1A1;
+  text-align:left;
+}
+.link_no-underline {
+  font-family:'Museo Sans Cyrl 300';
+  font-weight:304;
+  font-style:normal;
+  font-size:14px;
+  color:#FF0066;
+  text-align:left;
+}
+.header__phone {
+  font-family:'Museo Sans Cyrl 700';
+  font-weight:600;
+  font-style:normal;
+  font-size:18px;
+  color:#303030;
+}
+.nav__link {
+  font-family:'Museo Sans Cyrl 300';
+  font-weight:304;
+  font-style:normal;
+  font-size:14px;
+  color:#FFFFFF;
+  text-align:left;
+  line-height:21px;
+}
+.nav__link_light {
+  font-family:'Museo Sans Cyrl 300';
+  font-weight:304;
+  font-style:normal;
+  font-size:16px;
+  color:#FFFFFF;
+}
+.product-teaser_card__price {
+  font-family:'Museo Sans Cyrl 300';
+  font-weight:304;
+  font-style:normal;
+  font-size:18px;
+  color:#212121;
+}
+.product-teaser_list__price {
+  font-family:'Museo Sans Cyrl 700';
+  font-weight:600;
+  font-style:normal;
+  font-size:20px;
+  color:#212121;
+  text-align:left;
+}
+.cart-widget__price {
+  font-family:'Museo Sans Cyrl 700';
+  font-weight:604;
+  font-style:normal;
+  font-size:16px;
+  color:#FFFFFF;
+}
+.product-page-price {
+  font-family:'Museo Sans Cyrl 700';
+  font-weight:604;
+  font-style:normal;
+  font-size:28px;
+  color:#212121;
+}
+.product-teaser_card__title-link {
+  font-family:'Museo Sans Cyrl 300';
+  font-weight:304;
+  font-style:normal;
+  font-size:14px;
+  color:#212121;
+  text-align:left;
+  line-height:18px;
+}
+.filter-label {
+  font-family:'Museo Sans Cyrl 100';
+  font-weight:250;
+  font-style:normal;
+  font-size:14px;
+  color:#212121;
+  text-align:left;
+  line-height:18px;
+}
+.filter-quantity-label {
+  font-family:'Museo Sans Cyrl 300';
+  font-weight:304;
+  font-style:normal;
+  font-size:14px;
+  color:#1177BB;
+  text-align:left;
+  line-height:18px;
+}
+.hr {
+  font-family:'Museo Sans Cyrl 300';
+  font-weight:304;
+  font-style:normal;
+}
+.h1-title {
+  font-family:'Museo Sans Cyrl 300';
+  font-weight:normal;
+  font-style:normal;
+  font-size:48px;
+  color:#FFFFFF;
+  text-align:center;
+  line-height:48px;
+}
+.page-content_bg {
+  font-family:'Museo Sans Cyrl 300';
+  font-weight:304;
+  font-style:normal;
+}
+.main-btn {
+  font-family:'Museo Sans Cyrl 300';
+  font-weight:304;
+  font-style:normal;
+  font-size:18px;
+  color:#FFFFFF;
+}
+.notify-btn {
+  font-family:'Museo Sans Cyrl 300';
+  font-weight:304;
+  font-style:normal;
+  font-size:18px;
+  color:#FFFFFF;
+}
+.quantity-select {
+  font-family:'Museo Sans Cyrl 100';
+  font-weight:250;
+  font-style:normal;
+  font-size:18px;
+  color:#393E41;
+}
+.second-btn {
+  font-family:'Museo Sans Cyrl 300';
+  font-weight:304;
+  font-style:normal;
+  font-size:16px;
+  color:#212121;
+}
+.secondary-btn {
+  font-family:'Museo Sans Cyrl 300';
+  font-weight:304;
+  font-style:normal;
+  font-size:16px;
+  color:#FFFFFF;
+}
+.ghost-btn {
+  font-family:'Museo Sans Cyrl 300';
+  font-weight:304;
+  font-style:normal;
+  font-size:16px;
+  color:#FFFFFF;
+}
+.placeholder1 {
+  font-family:'Museo Sans Cyrl 300';
+  font-weight:304;
+  font-style:normal;
+  font-size:16px;
+  color:#A1A1A1;
+  text-align:left;
+  line-height:21px;
+}
+.input-placeholder {
+  font-family:'Museo Sans Cyrl 300';
+  font-weight:304;
+  font-style:normal;
+  font-size:14px;
+  color:#AEAEAE;
+  text-align:left;
+}
+.input-placeholder-dark {
+  font-family:'Museo Sans Cyrl 300';
+  font-weight:304;
+  font-style:normal;
+  font-size:14px;
+  color:#303030;
+  text-align:left;
+}
+.extra-content-bg {
+  font-family:'Museo Sans Cyrl 300';
+  font-weight:304;
+  font-style:normal;
+}
+.product-marker_instock {
+  font-family:'Museo Sans Cyrl 300';
+  font-weight:304;
+  font-style:normal;
+  color:#009900;
+  text-align:left;
+}
+.product-marker_nostock {
+  font-family:'Museo Sans Cyrl 300';
+  font-weight:304;
+  font-style:normal;
+  color:#FF0033;
+  text-align:left;
+}
+.price-slider__handle {
+  font-family:'Museo Sans Cyrl 300';
+  font-weight:304;
+  font-style:normal;
+  font-size:14px;
+  color:#AEAEAE;
+  text-align:left;
+}
+.gray-btn {
+  font-family:'Museo Sans Cyrl 300';
+  font-weight:304;
+  font-style:normal;
+  font-size:16px;
+  color:#303030;
+}
+.select-car-gray {
+  font-family:'Museo Sans Cyrl 300';
+  font-weight:300;
+  font-style:normal;
+  font-size:18px;
+  color:#303030;
+}
+.footer-phone {
+  font-family:'Museo Sans Cyrl 700';
+  font-weight:600;
+  font-style:normal;
+  font-size:28px;
+  color:#303030;
+  line-height:36px;
+}
+.heading_6 {
+  font-family:'Source Sans Pro';
+  font-weight:bold;
+  font-style:normal;
+  text-align:left;
+}
+.heading_5 {
+  font-family:'Source Sans Pro';
+  font-weight:bold;
+  font-style:normal;
+  text-align:left;
+}
+.heading_4 {
+  font-family:'Source Sans Pro';
+  font-weight:bold;
+  font-style:normal;
+  text-align:left;
+}
+.new_style {
+  font-family:'Source Sans Pro';
+  font-weight:400;
+  font-style:normal;
+}
+.sticky_2 {
+  text-align:left;
+}
+.droplist {
+  color:#000000;
+  text-align:left;
+}
+.product-marker_instock1 {
+}
+.second-btn1 {
+}
