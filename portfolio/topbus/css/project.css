@@ -19,16 +19,16 @@ img {
 .index-page {
   background:url(../img/home.jpg) no-repeat top center;
   heigth: 2785px;
-  height: var(--index-height);
+  /*height: var(--index-height);*/
 }
 
 .cat-page {
   background:url(../img/cat.jpg) no-repeat top center;
   heigth: 1718px;
-  height: var(--cat-height);
+  /*height: var(--cat-height);*/
 }
 
 .page-page {
   background:url(../img/page.jpg) no-repeat top center;
   heigth: 1778px;
-  height: var(--page-height);
+  /*height: var(--page-height);*/
