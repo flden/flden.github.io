@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+/* front page styles */
+:root{
+  --s-font: 12px;
+  --m-font: 16px;
+  --l-font: 21px;
+  --xl-font: 180px;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  width: 960px;
+}
+
+.header {
+
+}
+
+.header-top {
+  text-align: center;
+}
+
+.main-title {
+  font-size: var(--xl-font);
+  opacity: 0.1;
+  margin: 0;
+}
+
+.btn {
+  border: 3px solid red;
+  color: red;
+  text-decoration: none;
+  padding-top: 10px;
+  padding-right: 25px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+}
+
+
+/* portfolio styles */
