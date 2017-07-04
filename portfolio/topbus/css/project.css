@@ -22,6 +22,12 @@ img {
   /*height: var(--index-height);*/
 }
 
+.menu-page {
+  background:url(../img/menu.jpg) no-repeat top center;
+  height: 2785px;
+  /*height: var(--index-height);*/
+}
+
 .cat-page {
   background:url(../img/cat.jpg) no-repeat top center;
   height: 1718px;
