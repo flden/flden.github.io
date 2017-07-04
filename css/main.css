@@ -5,7 +5,7 @@
   --s-font: 12px;
   --m-font: 16px;
   --l-font: 21px;
-  --xl-font: 180px;
+  --xl-font: 72px;
 }
 
 html {
@@ -19,8 +19,6 @@ html {
 body {
   font-family: 'Poppins', sans-serif;
   color: #303030;
-  background-image: url(../assets/img/front-bg.jpg);
-  background-size: cover;
 }
 
 .container {
@@ -30,9 +28,10 @@ body {
 
 .page-header {
   width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  height: 100vh;
+  background-image: url(../assets/img/pattern.png), url(../assets/img/front-bg.jpg);
+  background-repeat: repeat, no-repeat;
+  background-size: 2px 2px, cover;
 }
 
 .page-header .container {
@@ -51,18 +50,28 @@ body {
   justify-content: space-between;
 }
 
-.main-info {
-  margin-top: 300px;
-  border: 10px solid #303030;
-  padding-top: 30px;
-  padding-bottom: 70px;
-  padding-left: 30px;
-  padding-right: 30px;
+.nav-list {
+  display: flex;
 }
 
-.main-title {
-  text-align: center;
-  text-transform: uppercase;
+.nav-item {
+  list-style: none;
+  margin-right: 16px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-link:hover {
+  border-bottom: 1px solid red;
+  color: red;
+}
+
+.nav-link-empty {
+  color: #fff;
+  opacity: 0.2;
 }
 
 .header-logo {
@@ -94,6 +103,27 @@ body {
   list-style: none;
 }
 
+.main-info {
+  margin-top: 300px;
+  border: 10px solid #303030;
+  padding-top: 30px;
+  padding-bottom: 70px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.main-title {
+  text-align: center;
+  font-size: var(--xl-font);
+  text-transform: uppercase;
+  opacity: 0.1;
+  color: #fff;
+}
+
+.content-main-title {
+  font-size: var(--xl-font);
+}
+
 .btn {
   border: 3px solid red;
   color: red;
@@ -117,30 +147,6 @@ body {
   height: 64px;
   fill: black;
 
-}
-
-.nav-list {
-  display: flex;
-}
-
-.nav-item {
-  list-style: none;
-  margin-right: 16px;
-}
-
-.nav-link {
-  text-decoration: none;
-  color: #303030;
-}
-
-.nav-link:hover {
-  border-bottom: 1px solid red;
-  color: red;
-}
-
-.nav-link-empty {
-  color: #303030;
-  opacity: 0.2;
 }
 
 .social-link {
