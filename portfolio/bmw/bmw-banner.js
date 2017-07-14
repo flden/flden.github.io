@@ -69,22 +69,22 @@ lib.tfontAvailable = function(family, totalTypekitCount) {
 
 
 
-(lib._2 = function() {
-	this.initialize(img._2);
+(lib.bg3 = function() {
+	this.initialize(img.bg3);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,556,250);
+
+
+(lib.bg5 = function() {
+	this.initialize(img.bg5);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,556,250);
+
+
+(lib.bgsalon = function() {
+	this.initialize(img.bgsalon);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,665,250);
-
-
-(lib._3 = function() {
-	this.initialize(img._3);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,556,250);
-
-
-(lib._5 = function() {
-	this.initialize(img._5);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,556,250);
 
 
 (lib.bgx3 = function() {
@@ -227,7 +227,7 @@ p.nominalBounds = new cjs.Rectangle(-150,-39.5,300,79);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Layer 1
-	this.instance = new lib._2();
+	this.instance = new lib.bgsalon();
 	this.instance.parent = this;
 	this.instance.setTransform(-332.5,-125);
 
@@ -241,7 +241,7 @@ p.nominalBounds = new cjs.Rectangle(-332.5,-125,665,250);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Layer 1
-	this.instance = new lib._2();
+	this.instance = new lib.bgsalon();
 	this.instance.parent = this;
 	this.instance.setTransform(-332.5,-125);
 
@@ -339,7 +339,7 @@ p.nominalBounds = new cjs.Rectangle(-133,-34,266,68);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Layer 1
-	this.instance = new lib._5();
+	this.instance = new lib.bg5();
 	this.instance.parent = this;
 	this.instance.setTransform(-278,-125);
 
@@ -353,7 +353,7 @@ p.nominalBounds = new cjs.Rectangle(-278,-125,556,250);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Layer 1
-	this.instance = new lib._5();
+	this.instance = new lib.bg5();
 	this.instance.parent = this;
 	this.instance.setTransform(-278,-125);
 
@@ -507,7 +507,7 @@ p.nominalBounds = new cjs.Rectangle(-278,-125,556,250);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Layer 1
-	this.instance = new lib._3();
+	this.instance = new lib.bg3();
 	this.instance.parent = this;
 	this.instance.setTransform(-278,-125);
 
@@ -521,7 +521,7 @@ p.nominalBounds = new cjs.Rectangle(-278,-125,556,250);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Layer 1
-	this.instance = new lib._3();
+	this.instance = new lib.bg3();
 	this.instance.parent = this;
 	this.instance.setTransform(-278,-125);
 
@@ -647,7 +647,7 @@ p.nominalBounds = new cjs.Rectangle(-151,-126,302,252);
 }).prototype = getMCSymbolPrototype(lib.text3_1, new cjs.Rectangle(-150,-17,300,34), null);
 
 
-(lib.bg3 = function(mode,startPosition,loop) {
+(lib.bg3_1 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Layer 1
@@ -656,7 +656,7 @@ p.nominalBounds = new cjs.Rectangle(-151,-126,302,252);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
-}).prototype = getMCSymbolPrototype(lib.bg3, new cjs.Rectangle(-278,-125,556,250), null);
+}).prototype = getMCSymbolPrototype(lib.bg3_1, new cjs.Rectangle(-278,-125,556,250), null);
 
 
 // stage content:
@@ -702,7 +702,7 @@ p.nominalBounds = new cjs.Rectangle(-151,-126,302,252);
 	this.timeline.addTween(cjs.Tween.get(this.instance_4).to({_off:true,x:130,y:210},34,cjs.Ease.get(1)).wait(715));
 
 	// bg
-	this.instance_6 = new lib.bg3();
+	this.instance_6 = new lib.bg3_1();
 	this.instance_6.parent = this;
 	this.instance_6.setTransform(220,126);
 
@@ -886,9 +886,9 @@ lib.properties = {
 	opacity: 1.00,
 	webfonts: {},
 	manifest: [
-		{src:"images/_2.jpg", id:"_2"},
-		{src:"images/_3.jpg", id:"_3"},
-		{src:"images/_5.jpg", id:"_5"},
+		{src:"images/bg3.jpg", id:"bg3"},
+		{src:"images/bg5.jpg", id:"bg5"},
+		{src:"images/bgsalon.jpg", id:"bgsalon"},
 		{src:"images/bgx3.png", id:"bgx3"},
 		{src:"images/bgx5.png", id:"bgx5"},
 		{src:"images/btntext.png", id:"btntext"},
