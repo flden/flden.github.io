@@ -668,7 +668,7 @@ p.nominalBounds = new cjs.Rectangle(-151,-126,302,252);
 	this.instance.parent = this;
 	this.instance.setTransform(11,0);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(748).to({scaleX:0.21,scaleY:0.21,x:7,y:2},0).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(749));
 
 	// mask
 	this.instance_1 = new lib.Tween5("synched",0);
