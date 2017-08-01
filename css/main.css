@@ -19,11 +19,14 @@ html {
 body {
   font-family: 'Poppins', sans-serif;
   color: #303030;
+  height: 100vh;
 }
 
 .container {
   margin: 0 auto;
   width: 960px;
+  border-left: 1px solid #ececec;
+  border-right: 1px solid #ececec;
 }
 
 .page-header {
