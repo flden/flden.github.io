@@ -1,0 +1,40 @@
+:root {
+  --index-height: 2785px;
+
+  --cat-height: 1718px;
+
+  --page-height: 1778px;
+}
+
+body {margin:0; padding:0;}
+
+.page {
+  text-align:center;
+  width: 100%;
+}
+img {
+  visibility: hidden;
+}
+
+.index-page {
+  background:url(../img/home.jpg) no-repeat top center;
+  height: 5229px;
+  /*height: var(--index-height);*/
+}
+
+.menu-page {
+  background:url(../img/menu.jpg) no-repeat top center;
+  height: 2785px;
+  /*height: var(--index-height);*/
+}
+
+.cat-page {
+  background:url(../img/cat.jpg) no-repeat top center;
+  height: 1718px;
+  /*height: var(--cat-height);*/
+}
+
+.page-page {
+  background:url(../img/page.jpg) no-repeat top center;
+  height: 4640px;
+  /*height: var(--page-height);*/
