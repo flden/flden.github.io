@@ -321,7 +321,6 @@ a:visited {
   animation: fade_in_up ease 0.3s forwards;
   animation-delay: 0.2s;
   list-style: none;
-  background-color: #fff;
   padding: 16px;
   display: flex;
   justify-content: space-between;
@@ -360,7 +359,7 @@ a:visited {
   margin-bottom: 16px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  
+
 }
 
 .bmw-teaser {
@@ -389,6 +388,12 @@ a:visited {
   background-size: cover;
 }
 
+.live-teaser {
+  background-image: url(../portfolio/live/img/home.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 @media screen (max-width: 967px){
   .project-list__item:nth-child(2n) {
     flex-break: after;
@@ -400,7 +405,7 @@ a:visited {
 .content {
   width: 100%;
   height: 100vh;
-  background: url(../portfolio/3drops/img/home.jpg);
+  background: url(../portfolio/live/img/home.jpg);
   background-size: cover;
   position: absolute;
   filter: blur(20px);
