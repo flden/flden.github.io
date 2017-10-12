@@ -22,19 +22,32 @@ img {
   /*height: var(--index-height);*/
 }
 
-.menu-page {
-  background:url(../img/menu.jpg) no-repeat top center;
-  height: 2785px;
+.index-page2 {
+  background:url(../img/home2.jpg) no-repeat top center;
+  height: 4853px;
   /*height: var(--index-height);*/
 }
 
-.cat-page {
-  background:url(../img/cat.jpg) no-repeat top center;
-  height: 1718px;
+.index-page3 {
+  background:url(../img/home3.jpg) no-repeat top center;
+  height: 4853px;
   /*height: var(--cat-height);*/
 }
 
-.page-page {
-  background:url(../img/page.jpg) no-repeat top center;
-  height: 1778px;
+.index-page4 {
+  background:url(../img/home4.jpg) no-repeat top center;
+  height: 4853px;
   /*height: var(--page-height);*/
+}
+
+.index-page5 {
+  background:url(../img/home5.jpg) no-repeat top center;
+  height: 4853px;
+  /*height: var(--page-height);*/
+}
+
+.index-page6 {
+  background:url(../img/home6.jpg) no-repeat top center;
+  height: 4853px;
+  /*height: var(--page-height);*/
+}
