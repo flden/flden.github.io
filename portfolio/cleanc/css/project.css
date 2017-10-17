@@ -17,19 +17,19 @@ img {
 }
 
 .index-page {
-  background:url(../img/home1.jpg) no-repeat top center;
+  background:url(../img/home11.jpg) no-repeat top center;
   height: 4853px;
   /*height: var(--index-height);*/
 }
 
 .index-page2 {
-  background:url(../img/home2.jpg) no-repeat top center;
+  background:url(../img/home12.jpg) no-repeat top center;
   height: 4853px;
   /*height: var(--index-height);*/
 }
 
 .index-page3 {
-  background:url(../img/home3.jpg) no-repeat top center;
+  background:url(../img/home13.jpg) no-repeat top center;
   height: 4853px;
   /*height: var(--cat-height);*/
 }
@@ -72,6 +72,24 @@ img {
 
 .index-page10 {
   background:url(../img/home10.jpg) no-repeat top center;
+  height: 4853px;
+  /*height: var(--page-height);*/
+}
+
+.index-page11 {
+  background:url(../img/home1.jpg) no-repeat top center;
+  height: 4853px;
+  /*height: var(--page-height);*/
+}
+
+.index-page12 {
+  background:url(../img/home2.jpg) no-repeat top center;
+  height: 4853px;
+  /*height: var(--page-height);*/
+}
+
+.index-page13 {
+  background:url(../img/home3.jpg) no-repeat top center;
   height: 4853px;
   /*height: var(--page-height);*/
 }
