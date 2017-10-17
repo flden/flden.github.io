@@ -17,7 +17,7 @@ img {
 }
 
 .index-page {
-  background:url(../img/home.jpg) no-repeat top center;
+  background:url(../img/home1.jpg) no-repeat top center;
   height: 4853px;
   /*height: var(--index-height);*/
 }
@@ -48,6 +48,30 @@ img {
 
 .index-page6 {
   background:url(../img/home6.jpg) no-repeat top center;
+  height: 4853px;
+  /*height: var(--page-height);*/
+}
+
+.index-page7 {
+  background:url(../img/home7.jpg) no-repeat top center;
+  height: 4853px;
+  /*height: var(--cat-height);*/
+}
+
+.index-page8 {
+  background:url(../img/home8.jpg) no-repeat top center;
+  height: 4853px;
+  /*height: var(--page-height);*/
+}
+
+.index-page9 {
+  background:url(../img/home9.jpg) no-repeat top center;
+  height: 4853px;
+  /*height: var(--page-height);*/
+}
+
+.index-page10 {
+  background:url(../img/home10.jpg) no-repeat top center;
   height: 4853px;
   /*height: var(--page-height);*/
 }
