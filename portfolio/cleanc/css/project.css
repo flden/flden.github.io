@@ -99,3 +99,9 @@ img {
   height: 5729px;
   /*height: var(--page-height);*/
 }
+
+.service2-page {
+  background:url(../img/service2.jpg) no-repeat top center;
+  height: 5016px;
+  /*height: var(--page-height);*/
+}
